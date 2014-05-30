@@ -43,6 +43,7 @@ public class Program {
 			}
 		}
 
+		
 		// Get all sentences in the .txt file
 		sentences = ReadTxtFile(filePath, delimiters);
 

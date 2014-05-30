@@ -46,6 +46,7 @@ public class Program {
 		// Get all sentences in the .txt file
 		sentences = ReadTxtFile(filePath, delimiters);
 
+		
 		// total the number of "real" words if there is something to calculate
 		if (sentences.size() != 0) {
 			realWords = CalculateRealWords(sentences, wordLenth);
